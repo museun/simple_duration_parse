@@ -1,0 +1,11 @@
+[package]
+name = "simple_duration_parse"
+version = "0.1.0"
+authors = ["museun <museun@outlook.com>"]
+edition = "2018"
+
+[dependencies]
+time = { version = "0.2.9", optional = true }
+
+[dev-dependencies]
+doc-comment = "0.3.3"
