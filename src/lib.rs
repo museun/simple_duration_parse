@@ -188,6 +188,8 @@ mod tests {
             ("7d", (60 * 60 * 24 * 7)),
             ("3d 5m", (60 * 60 * 24 * 3) + 5 * 60),
             ("1s foobar", 1),
+            ("foobar 1s", 1),
+            ("1m 58794384s", 60 + 58794384),
         ];
 
         for (input, expected) in tests {
